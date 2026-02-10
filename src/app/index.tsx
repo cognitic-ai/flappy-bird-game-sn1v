@@ -1,15 +1,5 @@
-import { ScrollView, Text } from "react-native";
+import FlappyBird from "@/components/flappy-bird";
 
 export default function IndexRoute() {
-  return (
-    <ScrollView
-      contentInsetAdjustmentBehavior="automatic"
-      style={{
-        padding: 16,
-        backgroundColor: "white",
-      }}
-    >
-      <Text>Hello world</Text>
-    </ScrollView>
-  );
+  return <FlappyBird />;
 }
